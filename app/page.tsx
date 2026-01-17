@@ -3,7 +3,6 @@ import { PinContainer } from "../components/ui/3d-pin";
 import { Spotlight } from "../components/ui/spotlight-new";
 import { EncryptedText } from "../components/ui/encrypted-text";
 
-// Custom animated gradient text component
 function AnimatedGradientText({ children, className = "" }: { children: React.ReactNode; className?: string }) {
   return (
     <span className={`animated-gradient-text ${className}`}>
@@ -16,7 +15,6 @@ export default function HomePage() {
   return (
     <div className="min-h-screen w-full flex flex-col items-center justify-center overflow-hidden font-sans relative bg-black">
       <Spotlight />
-      {/* Hero Section */}
       <section id="home" className="w-full flex flex-col items-center justify-center py-32 relative overflow-hidden">
         <div className="relative w-full flex flex-col items-center justify-center z-10">
           <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-zinc-400 via-zinc-300 to-zinc-200 dark:from-zinc-400 dark:via-zinc-100 dark:to-zinc-100">
