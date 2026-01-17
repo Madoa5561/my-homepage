@@ -14,7 +14,6 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Moyashi Portfolio",
-  description: "MMMMMMMMMOYASHIYYYYYY",
 };
 
 export default function RootLayout({
@@ -27,15 +26,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="w-full flex justify-center items-center py-6">
-          <img
-            src="/logo.png"
-            alt="もやしロゴ"
-            width={64}
-            height={64}
-            style={{ objectFit: "contain" }}
-          />
-        </header>
         {children}
       </body>
     </html>
